@@ -12,3 +12,20 @@ Or to create a webapp using streamlit
 pip install streamlit
 streamlit run app_streamlit.py
 ```
+To run native mac and win application
+
+```bash
+cd electron
+npm i
+chmod +x run_streamlit.sh
+npm start
+```
+
+To bundle native mac and win application
+```bash
+cd electron
+npm i
+chmod +x run_streamlit.sh
+npx electron-packager . StreamlitApp --platform=win32 --arch=x64 --out=dist/
+npx electron-packager . StreamlitApp --platform=darwin --arch=x64 --out=dist/
+```
