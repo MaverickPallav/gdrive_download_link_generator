@@ -6,7 +6,7 @@ To run locally
 python3 main.py url
 ```
 
-Or to create a webapp using streamlit
+To create a webapp using streamlit
 
 ```bash
 pip install streamlit
